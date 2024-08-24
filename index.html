@@ -53,7 +53,15 @@
     </div>
 
     <div class="boxx"></div>
-    <script src="script.js"></script>
+    <script>
+        const btns = document.getElementsByClassName("grid-box");
+
+for (let i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", () => {
+        window.location.href = "./screen.html";
+    });
+}
+    </script>
 </body>
 
 </html>
