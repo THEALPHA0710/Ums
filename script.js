@@ -34,15 +34,6 @@ menu.addEventListener('click', () => {
 });
 
 
-
-const btns = document.getElementsByClassName("grid-box");
-
-for (let i = 0; i < btns.length; i++) {
-    btns[i].addEventListener("click", () => {
-        window.location.href = "./screen.html";
-    });
-}
-
 const date = new Date();
 
 // Get the month abbreviation
