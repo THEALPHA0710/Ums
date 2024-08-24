@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    color: white;
+    margin: auto 15px;
+}
+
+.info {
+    background: hsla(7, 100%, 73%, 1);
+    background: linear-gradient(360deg, hsla(7, 100%, 73%, 1) 0%, hsla(41, 99%, 74%, 1) 100%);
+    background: -moz-linear-gradient(360deg, hsla(7, 100%, 73%, 1) 0%, hsla(41, 99%, 74%, 1) 100%);
+    background: -webkit-linear-gradient(360deg, hsla(7, 100%, 73%, 1) 0%, hsla(41, 99%, 74%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#FF8474", endColorstr="#FED47A", GradientType=1);
+    padding: 10px;
+    font-size: 14.5px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.info-box {
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+.Grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 10px;
+    column-gap: 2px;
+    padding: 2vh 10vw;
+}
+
+.grid-box {
+    height: 50px;
+    width: 130px;
+    font-weight: 600;
+    border: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 6px 2px -2px rgba(0, 0, 0, 0.2);
+    background: hsla(7, 100%, 73%, 1);
+    background: linear-gradient(360deg, hsla(7, 100%, 73%, 1) 0%, hsla(41, 99%, 74%, 1) 100%);
+    background: -moz-linear-gradient(360deg, hsla(7, 100%, 73%, 1) 0%, hsla(41, 99%, 74%, 1) 100%);
+    background: -webkit-linear-gradient(360deg, hsla(7, 100%, 73%, 1) 0%, hsla(41, 99%, 74%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#FF8474", endColorstr="#FED47A", GradientType=1);
+}
+
+.image {
+    height: 120px;
+    width: 120px;
+    margin-left: 32%;
+    border-radius: 10px;
+}
+
+
+/* screen.html */
+
+.container {
+    border: 1px solid black;
+    margin: 7px;
+    border-radius: 10px;
+}
+
+.left {
+    display: flex;
+}
+
+.img-box {
+    display: flex;
+}
+
+.boxx {
+    height: 200px;
+}
+
+.screen_image {
+    border-radius: 50%;
+    height: 140px;
+    margin: 20px 20px auto 20px;
+    border: 1px solid black;
+    box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45),
+        25px 0px 20px -20px rgba(0, 0, 0, 0.45),
+        0px 25px 20px -20px rgba(0, 0, 0, 0.45),
+        -25px 0px 20px -20px rgba(0, 0, 0, 0.45);
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.course {
+    margin: 20px 20px;
+    font-size: large;
+    font-weight: 700;
+}
+
+.heading {
+    color: rgb(27, 183, 27);
+    font-weight: 900;
+    font-size: 26px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.color {
+    aspect-ratio: 1/1;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #378091;
+}
+
+.color_box {
+    background-color: white;
+    height: 90%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vid {
+    height: 300px;
+    width: 320px;
+}
+
+.inf {
+    font-size: 13px;
+    line-height: 1.4;
+    box-shadow: 0 3px 2px 2px rgba(0, 0, 0, 0.3);
+    padding-bottom: 5px;
+}
+
+.date {
+    padding: 3px 50px;
+    font-size: 20px;
+}
+
+.date-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.code {
+    width: 70%;
+    margin: 15px auto;
+    padding: 7px 20px;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+#meal {
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-bottom: 7px;
+}
+
+.right-box {
+    font-weight: 900;
+    font-size: 18px;
+}
+
+#choice {
+    height: fit-content;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    background-color: white;
+    visibility: hidden;
+}
+
+.color-div {
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    margin: 5px;
+}
